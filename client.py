@@ -1,7 +1,7 @@
 import socket
 import pyaudio
 
-SERVER_ADDRESS = '192.168.43.180'
+SERVER_ADDRESS = 'localhost' #the server ip address
 SERVER_PORT = 8554
 BUFFER_SIZE = 8192
 
