@@ -2,6 +2,7 @@ import socket
 import threading
 import os
 
+# server and client should not be run on one device
 SERVER_ADDRESS = '0.0.0.0' #the server address
 SERVER_PORT = 8554
 AUDIO_FILE = "song.wav"
